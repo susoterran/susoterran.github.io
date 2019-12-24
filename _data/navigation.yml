@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "MySQL"
-    url: "//_posts/mysql/"
+    url: "/mysql/"
   - title: "웹서버"
     url: "/websrv/"
   - title: "Other"
