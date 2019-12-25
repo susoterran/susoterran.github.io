@@ -1,6 +1,6 @@
 ---
 title:  "PHP 설치하기"
-excerpt: ""
+excerpt: "이번 페이지에서는 리눅스에 PHP를 컴파일 설치하고 httpd 연동하는 방법에 대해 알아본다."
 header:
   overlay_color: "#333"
   actions:
@@ -17,7 +17,6 @@ toc_sticky: true
 classes: wide
 share: false
 ---
-이번 페이지에서는 리눅스에 PHP를 컴파일 설치하고 httpd 연동하는 방법에 대해 알아본다.
 
 ### PHP 란?
 

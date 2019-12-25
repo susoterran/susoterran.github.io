@@ -1,6 +1,6 @@
 ---
 title:  "OpenSSL 설치하기"
-excerpt_separator: "<!--more-->"
+excerpt: "이번 페이지에서는 리눅스에 OpenSSL을 컴파일 설치하는 방법에 대해 알아본다."
 header:
   overlay_color: "#333"
   actions:
@@ -18,9 +18,6 @@ toc_sticky: true
 classes: wide
 share: false
 ---
-이번 페이지에서는 리눅스에 OpenSSL을 컴파일 설치하는 방법에 대해 알아본다.
-<!--more-->
-
 ## OpenSSL 이란?
 
 - 네트워크를 통한 데이터 통신에 쓰이는 프로토콜인 SSL/TLS의 오픈 소스 구현판이다.

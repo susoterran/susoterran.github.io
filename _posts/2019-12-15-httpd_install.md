@@ -1,6 +1,6 @@
 ---
 title:  "httpd 설치하기"
-excerpt: ""
+excerpt: "이번 페이지에서는 리눅스에 아파치 httpd를 컴파일 설치하는 방법에 대해 알아본다."
 header:
   overlay_color: "#333"
   actions:
@@ -18,7 +18,6 @@ toc_sticky: true
 classes: wide
 share: false
 ---
-이번 페이지에서는 리눅스에 아파치 httpd를 컴파일 설치하는 방법에 대해 알아본다.
 
 ## httpd 란?
 

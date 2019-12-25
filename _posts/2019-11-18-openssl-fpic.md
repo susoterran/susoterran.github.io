@@ -1,6 +1,6 @@
 ---
 title:  "OpenSSL -fPIC 옵션"
-excerpt: ""
+excerpt: "이번 페이지에서는 OpenSSL 컴파일 설치 시 -fPIC 옵션의 의미가 무엇인지 알아본다."
 header:
   overlay_color: "#333"
 categories:
@@ -15,7 +15,7 @@ toc_sticky: true
 classes: wide
 share: false
 ---
-디바 온라인
+
 # 라이브러리 (Library)
 
 주로 소프트웨어를 개발할 때 컴퓨터 프로그램이 사용하는 비휘발성 자원의 모임이다. 여기에는 구성 데이터, 문서, 도움말 자료, 메시지 틀, 미리 작성된 코드, 서브루틴(함수), 클래스, 값, 자료형 사양을 포함할 수 있다.
