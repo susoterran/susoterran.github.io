@@ -1,6 +1,7 @@
 ---
 title:  "OpenSSL 설치하기"
-
+header:
+  image: https://file.bodnara.co.kr/logo/insidelogo.php?image=%2Fhttp%3A%2F%2Ffile.bodnara.co.kr%2Fwebedit%2Fnews%2F2015%2F1558324780-halo_mcc_343.jpg
 categories:
   - System
 tags:
@@ -12,7 +13,13 @@ toc: true
 toc_label: "On this page"
 toc_sticky: true
 classes: wide
+sidebar:
+  title: "Sample Title"
+  nav: sidebar-sample
+
 ---
+이번 페이지에서는 리눅스에 OpenSSL을 컴파일 설치하는 방법에 대해 알아본다.
+
 ## OpenSSL 이란?
 
 - 네트워크를 통한 데이터 통신에 쓰이는 프로토콜인 SSL/TLS의 오픈 소스 구현판이다.
