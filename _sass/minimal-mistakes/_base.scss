@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-  font-size: $type-size-4;
+  font-size: $type-size-4;  
 }
 
 h3 {
@@ -125,13 +125,15 @@ blockquote {
 
 /* links */
 
+
 a {
   &:focus {
-    @extend %tab-focus;
+    //color:#1e6bb8
+    @extend %tab-focus;    
   }
 
   &:visited {
-    color: $link-color-visited;
+    color: $link-color-visited;    
   }
 
   &:hover {

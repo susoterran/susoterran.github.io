@@ -50,17 +50,26 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
+  a{
+    color: #282b2e;
+    text-decoration: none;    
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
   a[rel="permalink"]::before {
     content: '';
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0;    
   }
 
   a + a {
-    opacity: 0.5;
+    opacity: 0.5;    
   }
 }
 
@@ -203,7 +212,7 @@
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: $type-size-5;
+    font-size: $type-size-4;
   }
 
   .archive__item-excerpt {

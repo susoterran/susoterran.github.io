@@ -1,18 +1,23 @@
 ---
 title:  "OpenSSL 설치하기"
+excerpt: ""
 header:
-  image: https://file.bodnara.co.kr/logo/insidelogo.php?image=%2Fhttp%3A%2F%2Ffile.bodnara.co.kr%2Fwebedit%2Fnews%2F2015%2F1558324780-halo_mcc_343.jpg
+  overlay_color: "#333"
+  actions:
+    - label: "OpenSSL공식사이트"
+      url: "https://www.openssl.org/"
 categories:
   - websrv
 tags:
   - OpenSSL
   - Linux
+date: 2019-11-17 T
 last_modified_at: 2019-11-18 T
-
 toc: true
 toc_label: "On this page"
 toc_sticky: true
-classes: wide
+#classes: wide
+share: false
 ---
 이번 페이지에서는 리눅스에 OpenSSL을 컴파일 설치하는 방법에 대해 알아본다.
 

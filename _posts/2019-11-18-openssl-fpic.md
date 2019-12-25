@@ -1,14 +1,21 @@
 ---
 title:  "OpenSSL -fPIC 옵션"
-
+excerpt: ""
+header:
+  overlay_color: "#333"
 categories:
   - websrv
 tags:
   - OpenSSL
   - Linux
 last_modified_at: 2019-11-18 T
+toc: true
+toc_label: "On this page"
+toc_sticky: true
+classes: wide
 ---
-# 1. 라이브러리 (Library)
+디바 온라인
+# 라이브러리 (Library)
 
 주로 소프트웨어를 개발할 때 컴퓨터 프로그램이 사용하는 비휘발성 자원의 모임이다. 여기에는 구성 데이터, 문서, 도움말 자료, 메시지 틀, 미리 작성된 코드, 서브루틴(함수), 클래스, 값, 자료형 사양을 포함할 수 있다.
 
@@ -20,7 +27,7 @@ last_modified_at: 2019-11-18 T
 - 대형 어플리케이션 개발 시간을 단축
 
 
-### 정적 라이브러리 (Static Library)
+## 정적 라이브러리 (Static Library)
 	
 미리 제작한 라이브러리 함수의 오브젝트 코드를 모아놓은 아카이브이다.
 
@@ -30,7 +37,7 @@ last_modified_at: 2019-11-18 T
 - 다른 프로그램이 같은 라이브러리를 사용할 경우 동일한 라이브러리가 메모리 공간을 차지하기 때문에 자원 낭비가 발생하고
 - 라이브러리에 문제가 있어 업데이트를 해야할 경우 실행 파일 전체를 다시 컴파일 해야 한다.
 
-### 공유 라이브러리 (Shared Library)
+## 공유 라이브러리 (Shared Library)
 	
 공유 라이브러리는 여러 오브젝트 파일을 하나의 거대한 오브젝트 파일로 만들어 이를 공유할 수 있도록 한 것이다.
 
