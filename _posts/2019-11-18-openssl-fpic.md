@@ -10,9 +10,10 @@ tags:
   - Linux
 last_modified_at: 2019-11-18 T
 toc: true
-toc_label: "On this page"
+toc_label: "목차"
 toc_sticky: true
 classes: wide
+share: false
 ---
 디바 온라인
 # 라이브러리 (Library)

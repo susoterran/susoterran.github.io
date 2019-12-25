@@ -1,12 +1,24 @@
 ---
 title:  "httpd 설치하기"
+excerpt: ""
+header:
+  overlay_color: "#333"
+  actions:
+    - label: "httpd공식사이트"
+      url: "http://httpd.apache.org/"
 categories:
   - websrv
 tags:
   - httpd
   - Linux
 last_modified_at: 2019-12-15 T
+toc: true
+toc_label: "목차"
+toc_sticky: true
+classes: wide
+share: false
 ---
+이번 페이지에서는 리눅스에 아파치 httpd를 컴파일 설치하는 방법에 대해 알아본다.
 
 ## httpd 란?
 
