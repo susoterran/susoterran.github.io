@@ -81,7 +81,12 @@ body {
   font-family: $global-font-family;
   font-size: $type-size-4;
 }
-
+/*
+2019.12.25
+page 안의 글자 서식 및 여백 설정하는 구간입니다.
+글자크기가 맘에 안들어서 p 태그의 글자 크기를 1.0em -> 0.9em으로 바꿨습니다.
+줄간 간격 넓은 것도 맘에 안들어서 p 태그의 margin 값을 0 0 1.2em -> 0 0 0.8em으로 바꿨습니다.
+*/
 .page__content {
   h2 {
     padding-bottom: 0.5em;
@@ -108,13 +113,13 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
-
+    //margin: 0 0 $indent-var;
+    margin: 0 0 0.8em;
     /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
