@@ -2,9 +2,11 @@
 main:
   - title: "MySQL"
     url: "/mysql/"
-  - title: "웹서버"
+  - title: "Web"
     url: "/websrv/"
   - title: "Other"
     url: "/other/"
+  - title: "Archive"
+    url: "/categories/"
   # - title: "Sitemap"
   #   url: /sitemap/

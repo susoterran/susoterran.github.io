@@ -2,7 +2,7 @@
 title:  "PHP 설치하기"
 
 categories:
-  - System
+  - websrv
 tags:
   - Linux
 last_modified_at: 2019-12-16 T

@@ -2,7 +2,7 @@
 title:  "OpenSSL -fPIC 옵션"
 
 categories:
-  - System
+  - websrv
 tags:
   - OpenSSL
   - Linux

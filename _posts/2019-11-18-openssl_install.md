@@ -3,7 +3,7 @@ title:  "OpenSSL 설치하기"
 header:
   image: https://file.bodnara.co.kr/logo/insidelogo.php?image=%2Fhttp%3A%2F%2Ffile.bodnara.co.kr%2Fwebedit%2Fnews%2F2015%2F1558324780-halo_mcc_343.jpg
 categories:
-  - System
+  - websrv
 tags:
   - OpenSSL
   - Linux
@@ -13,10 +13,6 @@ toc: true
 toc_label: "On this page"
 toc_sticky: true
 classes: wide
-sidebar:
-  title: "Sample Title"
-  nav: sidebar-sample
-
 ---
 이번 페이지에서는 리눅스에 OpenSSL을 컴파일 설치하는 방법에 대해 알아본다.
 

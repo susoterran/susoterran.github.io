@@ -1,8 +1,7 @@
 ---
 title:  "httpd 설치하기"
-
 categories:
-  - System
+  - websrv
 tags:
   - httpd
   - Linux
