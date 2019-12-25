@@ -42,7 +42,20 @@
     margin-top: 0.5em;
   }
 }
+/*
+2019.12.25
+아카이브 리스트들의 제목을 변경하는 구간입니다.
+  
+  a{
+    color: #282b2e;               -> 제목 텍스트의 색깔 변경
+    text-decoration: none;        -> a 태그는 기본적으로 밑줄이 생성되기 때문에 밑줄 제거용으로 none 넣음
+  }
 
+  a:hover {                       -> a 태그 위에 마우스 포인터를 올렸을 때
+    text-decoration: underline;   -> 제목 텍스트에 밑줄이 생성됨
+  }
+
+*/
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
