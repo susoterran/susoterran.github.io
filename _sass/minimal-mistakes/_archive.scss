@@ -30,12 +30,16 @@
     position: static;
   }
 }
-
+/*
+2019.12.25
+아카이브 목록의 제목 글씨 색깔 수정
+*/
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
-  color: $muted-text-color;
+  //color: $muted-text-color;
+  color: #494e52;
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
@@ -64,11 +68,12 @@
   text-overflow: ellipsis;
 
   a{
-    color: #282b2e;
+    color: #29758c;
     text-decoration: none;    
   }
 
   a:hover {
+    color: #1a4b59;
     text-decoration: underline;
   }
 
