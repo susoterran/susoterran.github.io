@@ -163,6 +163,14 @@ page 안의 글자 서식 및 여백 설정하는 구간입니다.
   }
 }
 
+/*
+2019.12.25
+상단 타이틀바에 나오는 excerpt 글자 크기가 너무 커서 조정
+.page__lead
+  ~
+      font-size: 0.8em
+  
+*/
 .page__hero {
   position: relative;
   margin-bottom: 2em;
@@ -208,6 +216,7 @@ page 안의 글자 서식 및 여백 설정하는 구간입니다.
 
     .page__lead {
       max-width: $medium;
+      font-size: 0.8em
     }
 
     .page__title {

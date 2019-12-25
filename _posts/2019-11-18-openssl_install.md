@@ -1,6 +1,6 @@
 ---
 title:  "OpenSSL 설치하기"
-excerpt: ""
+excerpt_separator: "<!--more-->"
 header:
   overlay_color: "#333"
   actions:
@@ -19,6 +19,7 @@ classes: wide
 share: false
 ---
 이번 페이지에서는 리눅스에 OpenSSL을 컴파일 설치하는 방법에 대해 알아본다.
+<!--more-->
 
 ## OpenSSL 이란?
 
