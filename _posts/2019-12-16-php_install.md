@@ -1,5 +1,6 @@
 ---
 title:  "PHP 설치하기"
+excerpt: ""
 header:
   overlay_color: "#333"
   actions:
