@@ -6,27 +6,6 @@
    Default
    ========================================================================== */
 
-/* TOC를 왼쪽으로 옮기기 위해 변경한 내용
-.sidebar__right
-margin-right: -1 * $right-sidebar-width-narrow;
--> margin-left: -1 * $right-sidebar-width-narrow - 40;
-
-	&.sticky
-	float: right;
-	-> float: left;
-
-	@include breakpoint($x-large)
-	margin-right: -1 * $right-sidebar-width;
-	-> margin-left: -1 * $right-sidebar-width - 40;
-
-.splash .sidebar__right
-float: right;
--> float: left;
-
-.wide .sidebar__right
--> .wide
-*/
-
 .sidebar {
   @include clearfix();
   @include breakpoint(max-width $large) {
@@ -100,7 +79,7 @@ float: right;
     top: 0;
     right: 0;
     width: $right-sidebar-width-narrow;
-    margin-left: -1 * $right-sidebar-width-narrow - 40;
+    margin-right: -1 * $right-sidebar-width-narrow;
     padding-left: 1em;
     z-index: 10;
 
@@ -109,20 +88,20 @@ float: right;
       position: -webkit-sticky;
       position: sticky;
       top: 2em;
-      float: left;
+      float: right;
     }
   }
 
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
-    margin-left: -1 * $right-sidebar-width - 40;
+    margin-right: -1 * $right-sidebar-width;
   }
 }
 
 .splash .sidebar__right {
   @include breakpoint($large) {
     position: relative;
-    float: left;
+    float: right;
     margin-right: 0;
   }
 
@@ -314,7 +293,7 @@ float: right;
    Wide Pages
    ========================================================================== */
 
-.wide  {
+.wide .sidebar__right {
   margin-bottom: 1em;
 
   @include breakpoint($large) {
