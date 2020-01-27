@@ -2,7 +2,8 @@
 title:  "PHP 설치하기"
 excerpt: "이번 페이지에서는 리눅스에 PHP를 컴파일 설치하고 httpd 연동하는 방법에 대해 알아본다."
 header:
-  overlay_color: "#333"
+  image: /assets/img/title/php_title.jpg
+  #overlay_color: "#333"
   actions:
     - label: "php공식사이트"
       url: "https://www.php.net/"
