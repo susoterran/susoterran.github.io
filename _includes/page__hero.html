@@ -46,7 +46,10 @@
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       {% if page.read_time %}
-        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+       <!-- 2020.01.27 포스트 제목 아래에 해당 포스트의 '읽은 시간' 대신 '발생일'이 출력되게 대체 -->
+        <!-- <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p> -->
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {{ page.last_modified_at }} </p>
+        
       {% endif %}
       {% if page.header.cta_url %}
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
