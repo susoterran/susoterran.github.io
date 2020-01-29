@@ -10,7 +10,7 @@ categories:
   - websrv
 tags:
   - Linux
-last_modified_at: 2019-12-16 T
+last_modified_at: 2019-12-16
 toc: true
 toc_label: "목차"
 toc_sticky: true

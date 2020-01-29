@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" #"default" "air", "aqua", "contrast", "dark", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "h2의 백업일지"
+title                    : "JS의 백업일지"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "H2terran"
@@ -289,7 +289,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: false
+      read_time: true
       comments: # true
       share: false
       related: true
