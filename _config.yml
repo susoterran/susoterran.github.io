@@ -20,7 +20,7 @@ title                    : "JS의 백업일지"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "H2terran"
-description              : "불 붙으면 터집니다"
+description              : "APM 100짜리 테란 유저입니다"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "susoterran/susoterran.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "H2Terran"
+  name             : "H2terran"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "스캔보단 사일로, 마린보단 고스트"
+  bio              : "APM 100짜리 테란유저입니다"
   location         : "Seoul"
   email            :
   links:
