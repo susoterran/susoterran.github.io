@@ -51,7 +51,7 @@ openssl을 재컴파일하게 되면 의존성 문제가 발생하여 이후에 
  [root@localhost work]# wget https://www.openssl.org/source/openssl-1.0.2s.tar.gz
 ```
 
-## 설치
+## OpenSSL 설치
 ```
 [root@localhost work]# tar zxvf openssl-1.0.2s.tar.gz
 [root@localhost work]# cd openssl-1.0.2s
@@ -63,8 +63,6 @@ openssl을 재컴파일하게 되면 의존성 문제가 발생하여 이후에 
 ```
 
 OS가 32bit인지 64bit 인지에 따라 옵션이 다르므로 주의한다.
-컴파일 옵션에 대한 자세한 사항은 아래 링크를 참고한다.
-- https://github.com/openssl/openssl/blob/master/Configure
 
 32bit OS일 경우
 ```
@@ -79,6 +77,50 @@ OS가 32bit인지 64bit 인지에 따라 옵션이 다르므로 주의한다.
 [root@localhost openssl-1.0.2s]# make
 [root@localhost openssl-1.0.2s]# make install
 ```
+
+### 컴파일 옵션 설명
+
+컴파일 옵션에 대한 자세한 사항은 아래 링크를 참고한다.
+- https://github.com/openssl/openssl/blob/master/Configure
+
+* &#45;&#45;prefix=/path/to/openssl
+  * /path/to/openssl 아래에 bin, lib, include/openssl 디렉토리가 설치 될 경로 설정
+  * OpenSSL에 의해 사용되는 설정 파일은 /path/to/openssl/ssl 또는 &#45;&#45;openssldir 옵션으로 설정한 경로 안에 위치할 것이다.
+  * 해당 옵션을 입력하지 않으면 &#45;&#45;openssldir 옵션에 설정한 경로에 설치된다.
+
+* -fPIC
+  * [fPIC 옵션의 의미](https://susoterran.github.io//websrv/openssl-fpic/ "fPIC 옵션의 의미")
+ 
+* &#45;&#45;openssldir=/path/to/openssl
+  * OpenSSL 관련 파일들 (설정 파일, 서버 인증서 등)을 위치시킬 디렉토리 설정
+  * /path/to/openssl 아래에 ssl 디렉터리가 추가된다.
+		
+* no-threads
+  * 멀티 쓰레드 어플리케이션을 위한 라이브러리를 생성하지 않는다.
+		
+* threads
+	* 멀티 쓰레드 어플리케이션을 위한 라이브러리를 생성한다 (기본값)
+		
+* no-zlib
+	* TLS 통신을 압축하기 위한 zlib 기능 지원을 추가하지 않는다 (기본값)
+		
+* zlib
+	* TLS 통신을 압축하기 위해 zlib 기능 지원을 추가한다
+	* 참고자료 : https://securitygrind.com/building-openssl-with-zlib-support/
+		
+* zlib-dynamic
+	* 필요할 때 동적으로 zlib 라이브러리를 로드한다.
+	* shared 라이브러리가 로딩된 시스템에서만 사용한다.
+	* 해당 옵션을 추가하면 자동으로 zlib 옵션이 활성화된다.
+	* 기본값으로 비활성화 되어 있다.
+		
+* no-shared
+	* shared 라이브러리를 생성하지 않는다 (기본값)
+	* /path/to/openssl/lib 안에 정적 라이브러리 생성 (libcrypto.a, libssl.a)
+		
+* shared
+	* /path/to/openssl/lib 경로에 공유 라이브러리 (libcrypto.so, libssl.so) 생성. 
+  * openssl-devel 패키지를 설치하는 것 동일
 
 ## 설치 버전 확인
 ```
