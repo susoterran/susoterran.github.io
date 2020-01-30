@@ -1,6 +1,6 @@
 ---
 title:  "OpenSSL 설치하기"
-excerpt: "이번 페이지에서는 리눅스에 OpenSSL을 컴파일 설치하는 방법에 대해 알아본다."
+excerpt: "리눅스에 OpenSSL을 컴파일 설치하는 방법"
 header:
   overlay_color: "#333"
   actions:
@@ -30,8 +30,7 @@ share: false
   - 해당 취약점으로 인해 가급적이면 1.0.2 버전 이상의 OpenSSL을 설치할 것을 권장하고 있다.
 
 
-## 다운로드 및 설치
-### 설치 환경
+## 설치 환경
 - CentOS 5,6,7
 - Ubuntu 14.04, 16.04
 - OpenSSL 1.0.2s
@@ -46,13 +45,13 @@ openssl을 소스 컴파일로 설치한 이후, 설치 한 openssl의 라이브
 openssl을 재컴파일하게 되면 의존성 문제가 발생하여 이후에 설치한 프로그램들이 정상적으로 동작하지 않게 된다. 이럴 경우 해당 프로그램들도 재컴파일 해주어야 한다.
 
 	
-### 다운로드
+## 다운로드
 
 ```
  [root@localhost work]# wget https://www.openssl.org/source/openssl-1.0.2s.tar.gz
 ```
 
-### 설치
+## 설치
 ```
 [root@localhost work]# tar zxvf openssl-1.0.2s.tar.gz
 [root@localhost work]# cd openssl-1.0.2s
@@ -67,11 +66,11 @@ OS가 32bit인지 64bit 인지에 따라 옵션이 다르므로 주의한다.
 컴파일 옵션에 대한 자세한 사항은 아래 링크를 참고한다.
 - https://github.com/openssl/openssl/blob/master/Configure
 
-#### [OS 32bit]
+32bit OS일 경우
 ```
 [root@localhost openssl-1.0.2s]# ./config --prefix=/usr/local/openssl
 ```
-#### [OS 64bit]
+64bit OS일 경우
 ```
 [root@localhost openssl-1.0.2s]# ./config -fPIC --prefix=/usr/local/openssl
 ```	
@@ -81,7 +80,7 @@ OS가 32bit인지 64bit 인지에 따라 옵션이 다르므로 주의한다.
 [root@localhost openssl-1.0.2s]# make install
 ```
 
-### 설치 버전 확인
+## 설치 버전 확인
 ```
 [root@localhost ~]# /usr/local/openssl/bin/openssl 
 OpenSSL> version

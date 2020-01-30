@@ -1,6 +1,6 @@
 ---
 title:  "httpd 설치하기"
-excerpt: " "
+excerpt: "리눅스에 httpd을 컴파일 설치하는 방법"
 header:
   overlay_color: "#333"
   actions:
