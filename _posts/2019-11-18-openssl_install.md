@@ -19,7 +19,6 @@ classes: wide
 share: false
 layout: single
 comments: true
-# other options
 ---
 ## OpenSSL 이란?
 
