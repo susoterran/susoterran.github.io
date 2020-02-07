@@ -289,8 +289,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: true
-      comments: true
+      read_time: true      
       share: false
       related: true
 
@@ -299,6 +298,5 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
-      comments: true
+      layout: single      
       author_profile: false

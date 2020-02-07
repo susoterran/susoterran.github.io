@@ -17,6 +17,8 @@ toc_label: "목차"
 toc_sticky: true
 classes: wide
 share: false
+layout: single
+comments: true
 ---
 
 ## httpd 란?

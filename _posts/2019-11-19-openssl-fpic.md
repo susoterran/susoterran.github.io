@@ -14,6 +14,8 @@ toc_label: "목차"
 toc_sticky: true
 classes: wide
 share: false
+layout: single
+comments: true
 ---
 
 # 라이브러리 (Library)
