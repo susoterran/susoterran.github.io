@@ -150,15 +150,15 @@ root@ubuntu:/home/work# apt-get install libexpat1-dev
 
 * &#45;&#45;enable-so
   * mod_so가 제공하는 DSO 기능을 사용한다. 
-  * --enable-mods-shared 옵션을 사용하면 자동으로 이 모듈을 포함한다.
+  * &#45;&#45;enable-mods-shared 옵션을 사용하면 자동으로 이 모듈을 포함한다.
 
 * &#45;&#45;enable-modules=MODULE-LIST
 	* &#45;&#45;enable-mods-shared와 비슷하지만, 이 옵션은 열거한 모듈들을 정적으로 링크한다.
 	* 이 모듈들은 httpd가 실행되면 언제나 사용할 수 있다.
 	* LoadModule로 읽어들일 필요가 없다.
 	* 수동으로 목록 입력
-	  &#45;&#45;enable-modules='ssl so mos'
-		작은 따옴표로 목록을 묶고, 모듈명에서 앞에 mod_는 뺀다.
+	  * &#45;&#45;enable-modules='ssl so mos'
+      * 작은 따옴표로 목록을 묶고, 모듈명에서 앞에 mod_는 뺀다.
 		
 * &#45;&#45;enable-ssl
 	* OpenSSL을 사용하여 mod_ssl을 생성한다.
