@@ -90,15 +90,15 @@ comments: true
 
 * 만약 복수 개의 도메인 주소를 입력하고자 한다면 쉼표(,)나 빈칸으로 구분한다 (www.h2terran.co.kr h2terran.co.kr)
 
-<center><img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/menual-issue-2.jpg?raw=true"></center>
+<img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/menual-issue-2.jpg?raw=true">
 
 - 인증서를 발급받을 서버의 IP 정보를 공개적으로 수집해도 되는지 묻는다.
 
-<center><img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/menual-issue-3.jpg?raw=true"></center>
+<img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/menual-issue-3.jpg?raw=true">
 
 - 발급받는 인증서의 사이트가 실제 존재하는지를 확인하는 단계. 아래에 나온 안내대로 http://www.h2terran.co.kr/.well-known/acme-challenge/duQnmJJq1VzQes_-dHmnyFjRjExw1pcu21OD-AtHu5A URL로 요청을 보냈을 때 중간에 나온 duQnmJJq1VzQes_-dHmnyFjRjExw1pcu21OD-AtHu5A 을 반환해야 인증단계가 마무리된다.
 
-<center><img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/menual-issue-4.jpg?raw=true"></center>
+<img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/menual-issue-4.jpg?raw=true">
 
 - 루트디렉터리에서 위의 URL에 맞게 파일을 생성해준다.
 
@@ -113,11 +113,12 @@ duQnmJJq1VzQes_-dHmnyFjRjExw1pcu21OD-AtHu5A.RGx8oO5GT-D9auOp8wE8YWbLcDn_jeS6TbAu
 
 위 내용을 입력 - 저장 후 종료
 ```
-<center><img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/menual-issue-5.jpg?raw=true"></center>
+<img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/menual-issue-5.jpg?raw=true">
 
 - 인증이 완료 되었다. 인증서는 /etc/letsencrypt/live/www.h2terran.co.kr 디렉터리에서 확인할 수 있다.
 
-<center><img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/menual-issue-6.jpg?raw=true"></center>
+<img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/menual-issue-6.jpg?raw=true">
+
 
 ```
 [root@localhost letsencrypt]# cd /etc/letsencrypt/live/www.h2terran.co.kr
@@ -178,7 +179,7 @@ Syntax OK
 
 - 사이트에 적용한 인증서 정보 확인할 수 있는 사이트
 
-https://www.geocerts.com/ssl-checker
+    https://www.geocerts.com/ssl-checker
 
 <center><img src="https://github.com/susoterran/susoterran.github.io/blob/master/assets/img/letsencrypt/auto-issue-certification.jpg?raw=true"></center>
 
