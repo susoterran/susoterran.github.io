@@ -50,7 +50,7 @@
       <!-- 2020.05.07 호스트 맨 아래에 Last Updated 추가 후 Published와 Last Updated 변수 분리 -->
 
         <!-- <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p> -->
-        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {{ page.published_at }} </p>
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {{ page.last_modified_at }} </p>
         
       {% endif %}
       {% if page.header.cta_url %}
