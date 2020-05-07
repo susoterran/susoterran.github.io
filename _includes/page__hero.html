@@ -47,8 +47,6 @@
       {% endif %}
       {% if page.read_time %}
        <!-- 2020.01.27 포스트 제목 아래에 해당 포스트의 '읽은 시간' 대신 '발생일'이 출력되게 대체 -->
-      <!-- 2020.05.07 호스트 맨 아래에 Last Updated 추가 후 Published와 Last Updated 변수 분리 -->
-
         <!-- <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p> -->
         <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {{ page.last_modified_at }} </p>
         
