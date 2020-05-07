@@ -11,6 +11,7 @@ categories:
 tags:
   - OpenSSL
   - Linux
+published_at: 2019-11-18
 last_modified_at: 2019-11-18
 toc: true
 toc_label: "목차"
