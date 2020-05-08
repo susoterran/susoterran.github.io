@@ -1,6 +1,6 @@
 ---
 title:  "Let`s Encrypt 설치 및 SSL 인증서 발급"
-excerpt: "리눅스에 Let`s Encrypt를 설치하고 SSL 인증서를 발급하여 사이트에 적용하는 방법"
+excerpt: "리눅스에 Let`s Encrypt를 설치하고 SSL 인증서를 발급하여 사이트에 적용하는 방법입니다"
 header:
   overlay_color: "#333"
   actions:
