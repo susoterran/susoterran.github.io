@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "jscustom" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "JS의 백업일지"
+title                    : "JS_active.log"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "H2terran"
-description              : "APM 100짜리 테란 유저입니다"
+name                     : "susoterran"
+description              : "어제보다 더 나은 내일을 위해"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "susoterran/susoterran.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,15 +107,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "H2terran"
+  name             : "susoterran"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "APM 100짜리 테란유저입니다"
+  bio              : "어제보다 더 나은 내일을 위해"
   location         : "Seoul"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: "mailto:susoterran@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

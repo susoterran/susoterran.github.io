@@ -42,9 +42,12 @@
           {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
         {% endif %}
       </h1>
+      <!-- 2020.07.01 포스트 제목 아래에 글 요약 내용 안나오게 변경 -->      
       {% if page.header.show_overlay_excerpt != false and page.excerpt %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        &nbsp;
+        <!-- <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>-->
       {% endif %}
+      
       {% if page.read_time %}
        <!-- 2020.01.27 포스트 제목 아래에 해당 포스트의 '읽은 시간' 대신 '발생일'이 출력되게 대체 -->
         <!-- <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p> -->

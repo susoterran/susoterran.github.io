@@ -30,7 +30,7 @@
       {% endif %}
     </h2>
     {% if post.read_time %}
-      <!-- 2020.01.27 아카이브 목록에서 해당 포스트의 '읽은 시간' 대신 '발생일'이 출력되게 대체 -->
+      <!-- 2020.01.27 아카이브 목록에서 해당 포스트의 '읽은 시간' 대신 '발행일'이 출력되게 대체 -->
       <!-- 원본 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p> -->
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {{ post.last_modified_at }}</p>
     {% endif %}
