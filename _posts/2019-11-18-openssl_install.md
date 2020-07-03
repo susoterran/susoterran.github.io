@@ -39,13 +39,13 @@ comments: true
 - OpenSSL 1.0.2s, 1.1.1d
 
 
-### Source 설치를 하는 이유
+### source 설치를 하는 이유
 
 yum으로 설치힌 openssl의 경우 yum 이나 rpm을 이용하여 업데이트를 진행할 수 있다. 하지만 최신 버전의 openssl은 rpm 패키지가 아닌 소스 형태로 배포되므로, 이 경우 yum을 통해서 최신 버전으로 업데이트를 진행할 수 없다.
 
 openssl은 소스 파일 (정확히는 openssl 소스 코드들의 압축 파일) 형태로 배포되며, gcc 등의 컴파일 도구를 이용하여 설치할 수 있다.
 
-### Source 설치 시 주의 사항
+### source 설치 시 주의 사항
 
 - openssl을 소스 컴파일로 설치한 이후, 해당 openssl의 라이브러리를 이용하여 Source 설치한 프로그램이 있다면 해당 프로그램은 openssl 라이브러러에 의존성을 가지게 된다. 한마디로 설치한 openssl이 없으면 정상적으로 구동되지 않는다는 의미이다.
 
@@ -128,7 +128,7 @@ openssl은 소스 파일 (정확히는 openssl 소스 코드들의 압축 파일
 [root@localhost openssl-1.1.1d]# make install
 ```
 
-## 설치 버전 확인
+## 설치 확인
 설치 후 아래와 같이 openssl 을 실행하면 에러가 출력된다.
 ```
 [root@localhost ~]# /usr/local/openssl/bin/openssl version
@@ -157,7 +157,7 @@ OpenSSL 1.0.2s  20 Nov 2018
 OpenSSL 1.1.1d  10 Sep 2019
 ```
 
-### 컴파일 옵션 설명
+## 컴파일 옵션 설명
 
 컴파일 옵션에 대한 자세한 사항은 아래 링크를 참고한다.
 - https://github.com/openssl/openssl/blob/master/Configure
@@ -201,4 +201,3 @@ OpenSSL 1.1.1d  10 Sep 2019
   * 공유 라이브러리를 생성한다 (1.1.1 버전에서 기본값) 
 	* /path/to/openssl/lib 경로에 공유 라이브러리 (libcrypto.so, libssl.so) 생성. 
   * openssl-devel 패키지를 설치하는 것 동일
-
