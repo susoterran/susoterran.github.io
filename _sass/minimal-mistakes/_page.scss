@@ -114,13 +114,15 @@ page 안의 글자 서식 및 여백 설정하는 구간입니다.
   p,
   li,
   dl {
-    font-size: 0.9em;    
+    font-size: 0.87em;    
+    font-family: 'Noto Sans KR', sans-serif;
   }
 
   /* paragraph indents */
   p {
     //margin: 0 0 $indent-var;
     margin: 0 0 0.8em;
+    
     /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
