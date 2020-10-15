@@ -163,9 +163,9 @@ include ld.so.conf.d/*.conf
 [root@localhost work]# yum -y install make zlib curl gcc cpp gcc-c++ libxml2 libxml2-devel libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libc-client-devel
 ```
 
-<b>OS가 CentOS 7인 경우</b>
+<b>OS가 CentOS 7 이상 인 경우</b>
 ```
-[root@localhost work]# yum -y install make zlib curl gcc cpp gcc-c++ libxml2 libxml2-devel libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libc-client-devel
+[root@localhost work]# yum -y install make zlib curl gcc cpp gcc-c++ libxml2 libxml2-devel libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel
 ```
 libc-client-devel 의 이름이 CentOS 7에서 부터 uw-imap-devel 으로 변경되었으며, 기본 리포지토리로는 설치되지 않는다. 따라서 아래와 같이 EPEL 리포지토리가 있어야 패키지 설치가 가능하다.
 ```
