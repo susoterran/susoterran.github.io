@@ -11,7 +11,7 @@ categories:
 tags:
   - Linux
 last_modified_at: 2019-12-16
-last_modified_at_2 : 2020-07-01
+last_modified_at_2 : 2020-10-15
 toc: true
 toc_label: "목차"
 toc_sticky: true
@@ -156,10 +156,23 @@ include ld.so.conf.d/*.conf
 - libjpeg : JPEG 이미지 데이터 포맷을 다루기 위한 기능을 가진 무료 라이브러리
 - libpng : 공식 PNG 참조 라이브러리
 - Freetype2 : font 라이브러리
+- libc-client-devel (uw-imap-devel) : IMAP 라이브러리
 
+<b>OS가 CentOS 6인 경우</b>
 ```
-[root@localhost work]# yum -y install libxml2 libxml2-devel libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel
+[root@localhost work]# yum -y install make zlib curl gcc cpp gcc-c++ libxml2 libxml2-devel libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libc-client-devel
 ```
+
+<b>OS가 CentOS 7인 경우</b>
+```
+[root@localhost work]# yum -y install make zlib curl gcc cpp gcc-c++ libxml2 libxml2-devel libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libc-client-devel
+```
+libc-client-devel 의 이름이 CentOS 7에서 부터 uw-imap-devel 으로 변경되었으며, 기본 리포지토리로는 설치되지 않는다. 따라서 아래와 같이 EPEL 리포지토리가 있어야 패키지 설치가 가능하다.
+```
+[root@localhost work]# yum -y install epel-release
+[root@localhost work]# yum -y install uw-imap-devel
+```
+
 
 ## PHP 5.6 다운로드 및 설치
 ```
