@@ -1,5 +1,5 @@
 ---
-title:  "httpd 설치하기"
+title:  "[APM설치] httpd 설치하기"
 excerpt: "리눅스에 httpd을 컴파일 설치하는 방법"
 header:
   overlay_color: "#333"
@@ -11,6 +11,7 @@ categories:
 tags:
   - httpd
   - Linux
+  - 설치
 last_modified_at: 2019-12-15
 toc: true
 toc_label: "목차"

@@ -1,5 +1,5 @@
 ---
-title:  "PHP 5.6 설치하기"
+title:  "[APM설치] PHP 5.6 설치하기"
 excerpt: "이번 페이지에서는 리눅스에 PHP를 컴파일 설치하고 httpd 연동하는 방법에 대해 알아본다."
 header:
   overlay_color: "#333"
@@ -10,6 +10,7 @@ categories:
   - websrv
 tags:
   - Linux
+  - PHP설치
 last_modified_at: 2019-12-16
 last_modified_at_2 : 2020-10-15
 toc: true

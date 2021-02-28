@@ -11,7 +11,7 @@ categories:
 tags:
   - OpenSSL
   - Linux
-  - ssl
+  - 서버보안
 last_modified_at: 2020-03-30
 toc: true
 toc_label: "목차"
