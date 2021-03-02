@@ -121,7 +121,7 @@ author:
       url: "https://github.com/susoterran"
     - label: "Certificate"
       icon: "fas fa-fw fa-certificate"
-      url: "asd"
+    #  url: "asd"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
