@@ -1,6 +1,6 @@
 ---
-title:  "[MySQL/MariaDB] MySQL/MariaDB에서 사용할 사설 인증서 생성하기"
-excerpt: "MySQL/MariaDB 서버에서 사용할 사설 인증서 생성 (OpenSSL / GnuTLS)"
+title:  "[MySQL/MariaDB] MySQL/MariaDB에서 사용할 사설 SSL 인증서 생성하기"
+excerpt: "MySQL/MariaDB 서버에서 사용할 사설 SSL 인증서 생성 (OpenSSL / GnuTLS)"
 header:
   overlay_color: "#333"
   actions:
