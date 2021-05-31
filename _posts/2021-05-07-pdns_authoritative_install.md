@@ -5,7 +5,7 @@ header:
   overlay_color: "#333"
   actions:
     - label: "PowerDNS 공식사이트"
-      url: "https://www.pow"
+      url: "https://www.powerdns.com/"
 categories:
   - other
 tags:
