@@ -1,6 +1,6 @@
 ---
 title:  "[PowerDNS] PowerDNS의 주/보조 서버 간 동기화 기능의 문제점"
-excerpt: "PowerDNS의 주/보조 서버 간 동기화 기능의 문제점""
+excerpt: "PowerDNS의 주/보조 서버 간 동기화 기능의 문제점"
 header:
   overlay_color: "#333"
   actions:
