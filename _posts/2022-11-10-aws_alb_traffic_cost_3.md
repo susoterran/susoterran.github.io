@@ -4,7 +4,7 @@ excerpt: "내부 ALB를 통한 내부 트래픽 비용은 어떻게 산출할까
 header:
   overlay_color: "#333"
 categories:
-  - other
+  - AWS
 tags:
   - AWS
 last_modified_at : 2022-11-21

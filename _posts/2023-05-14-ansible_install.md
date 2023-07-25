@@ -4,7 +4,7 @@ excerpt: "Ansible, Python, Ansible-code, AWX 간 버전 호환 비교"
 header:
   overlay_color: "#333"
 categories:
-  - other
+  - CI/CD
 tags:
   - Ansible
 last_modified_at : 2023-05-14

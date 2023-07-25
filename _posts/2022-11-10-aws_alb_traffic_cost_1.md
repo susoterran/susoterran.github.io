@@ -4,7 +4,7 @@ excerpt: "ALB의 위치에 따라 달라지는 트래픽 비용 산정 방식"
 header:
   overlay_color: "#333"
 categories:
-  - other
+  - AWS
 tags:
   - AWS
 last_modified_at : 2022-11-19
