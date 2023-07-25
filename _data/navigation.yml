@@ -1,11 +1,13 @@
 # main links
 main:
+  - title: "CI/CD"
+    url: "/CICD/"
+  - title: "AWS"
+    url: "/AWS/"
   - title: "MySQL"
     url: "/mysql/"
-  - title: "Web"
-    url: "/websrv/"
-  - title: "Other"
-    url: "/other/"
+  - title: "Search"
+    url: "/search/"
   - title: "Archive"
     url: "/categories/"
   # - title: "Sitemap"
