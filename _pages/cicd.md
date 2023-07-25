@@ -1,7 +1,7 @@
 ---
 title:  "CI/CD"
 layout: category
-permalink: /cicd/
+permalink: /CICD/
 author_profile: true
-taxonomy: cicd
+taxonomy: CI/CD
 ---

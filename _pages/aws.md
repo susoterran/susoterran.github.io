@@ -1,7 +1,7 @@
 ---
 title:  "AWS"
 layout: category
-permalink: /aws/
+permalink: /AWS/
 author_profile: true
-taxonomy: aws
+taxonomy: AWS
 ---
