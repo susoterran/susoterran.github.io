@@ -6,9 +6,9 @@ main:
     url: "/AWS/"
   - title: "MySQL"
     url: "/mysql/"
-  - title: "Search"
-    url: "/search/"
+  - title: "Other"
+    url: "/other/"
   - title: "Archive"
     url: "/categories/"
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Tag"
+    url: /tags/

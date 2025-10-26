@@ -61,18 +61,18 @@
     display: block;
     margin-bottom: 0;
     padding: 0;
-    border: none;
-    outline: none;
-    box-shadow: none;
+    border: 1;
+    outline: 1;
+    box-shadow: 1;
     background-color: transparent;
     font-size: $type-size-3;
 
     @include breakpoint($large) {
-      font-size: $type-size-2;
+      font-size: $type-size-5;
     }
 
     @include breakpoint($x-large) {
-      font-size: $type-size-1;
+      font-size: $type-size-4;
     }
   }
 
