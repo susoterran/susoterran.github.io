@@ -47,8 +47,10 @@ comments: true
 - Docker-compose 2.35.1
 - Python 3.9.25 (dnf로 설치)
 
-- ansible 7.5.10
+- ansible 7.5.0
 - git
+
+<br>
 
 # 환경 구성
 
@@ -93,3 +95,5 @@ mkvirtualenv -p python3.9 awx
 (awx) [ahrah@jslim106 awx-builder]$ pip install ansible==7.5.0
 (awx) [ahrah@jslim106 awx-builder]$ pip install docker
 ```
+
+<br>
