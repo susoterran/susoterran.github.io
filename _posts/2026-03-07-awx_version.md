@@ -36,7 +36,7 @@ AWX는 ansble 프로젝트 관리를 위한 웹 기반 사용자 인터페이스
 
 <br>
 
-1. awx-ee
+## awx-ee
 - ansible 기능을 통합하여 컨테이너 이미지로 빌드한 후 사용한다.
 - 기존 AWX의 경우 내부에 ansible 버전이 사실상 하나로만 사용했으나, EE를 사용하게 되면 AWX 내에서 여러 ansible 버전을 사용할 수 있게 되었다.
 - AWX에 설정한 실행환경에 맞는 이미지를 리포지토리로부터 다운받아 컨테이너 내부에서 podman를 통해 ee 컨테이너를 추가로 실행하는 구조이다.
@@ -48,10 +48,9 @@ AWX는 ansble 프로젝트 관리를 위한 웹 기반 사용자 인터페이스
   ff82156fa3b8  quay.io/ansible/awx-ee:latest  ansible-playbook ...  47 seconds ago  Up 47 seconds              ansible_runner_263
   ```
 
-<br>
-
-2. ansible-runner
-- ansible을 추상화한 인터페이스 역할. 파이썬 라이브러리 형태로 존재.
+## ansible-runner
+- ansible을 추상화한 인터페이스 역할을 한다.
+- 파이썬 라이브러리 형태로 존재한다.
 
 <br>
 
