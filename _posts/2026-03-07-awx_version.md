@@ -8,8 +8,8 @@ categories:
 tags:
   - Ansible
   - AWX
-last_modified_at : 2026-03-07
-last_modified_at_2 : 2026-03-07
+last_modified_at : 2026-03-06
+last_modified_at_2 : 2026-03-06
 toc: true
 toc_label: "목차"
 toc_sticky: true
@@ -36,20 +36,21 @@ AWX는 ansble 프로젝트 관리를 위한 웹 기반 사용자 인터페이스
 
 <br>
 
-## awx-ee
+1. awx-ee
 - ansible 기능을 통합하여 컨테이너 이미지로 빌드한 후 사용한다.
 - 기존 AWX의 경우 내부에 ansible 버전이 사실상 하나로만 사용했으나, EE를 사용하게 되면 AWX 내에서 여러 ansible 버전을 사용할 수 있게 되었다.
 - AWX에 설정한 실행환경에 맞는 이미지를 리포지토리로부터 다운받아 컨테이너 내부에서 podman를 통해 ee 컨테이너를 추가로 실행하는 구조이다.
 - redhat에서 제공하는 기본 EE를 사용할 수도 있고, 직접 EE 이미지를 빌드하여 별도의 리포지토리로 관리하여 사용할 수도 있다.
-```bash
-bash-5.1$ podman ps -a
-CONTAINER ID  IMAGE                          COMMAND               CREATED         STATUS         PORTS       NAMES
-ff82156fa3b8  quay.io/ansible/awx-ee:latest  ansible-playbook ...  47 seconds ago  Up 47 seconds              ansible_runner_263
-```
+- awx 컨테이너 내부에서 awx-ee가 podman 컨테이너로 동작하는 모습
+  ```bash
+  bash-5.1$ podman ps -a
+  CONTAINER ID  IMAGE                          COMMAND               CREATED         STATUS         PORTS       NAMES
+  ff82156fa3b8  quay.io/ansible/awx-ee:latest  ansible-playbook ...  47 seconds ago  Up 47 seconds              ansible_runner_263
+  ```
 
 <br>
 
-## ansible-runner
+2. ansible-runner
 - ansible을 추상화한 인터페이스 역할. 파이썬 라이브러리 형태로 존재.
 
 <br>
@@ -57,6 +58,7 @@ ff82156fa3b8  quay.io/ansible/awx-ee:latest  ansible-playbook ...  47 seconds ag
 ## awx 버전간 호환 관계
 
 - awx-ee의 버전별로 내부에 설치된 파이썬과 ansible-core 버전이 다르다.
+
 | awx-ee 버전 |  릴리즈 일자  | ansible-core version |  Python version  |
 |:----------:|:------------:|:--------------------:|:----------------:|
 | 24.6.1     | 2024-07-03   | 2.15.12              | Python 3.9.19    |
@@ -64,6 +66,7 @@ ff82156fa3b8  quay.io/ansible/awx-ee:latest  ansible-playbook ...  47 seconds ag
 | 23.0.0     | 2023-08-30   | 2.15.3               | Python 3.9.17    |
 | 22.0.0     | 2023-04-04   | 2.14.4               | Python 3.9.16    |
 
+<br>
 
 # awx-ee를 커스텀 빌드해야 하는 경우
 1. ansible과 awx-ee의 ansible-core 버전이 일치하지 않는 경우
