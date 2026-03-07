@@ -46,7 +46,6 @@ comments: true
 - Docker 26.1.4
 - Docker-compose 2.35.1
 - Python 3.9.25 (dnf로 설치)
-
 - ansible 7.5.0
 - git
 

@@ -48,10 +48,12 @@ Ansible을 사용하기 전에 현재 인프라 환경에서 사용하고 있는
 
 <br>
 
-# 버전별 호환 관계 (2026.03.07 기준)
+# 버전별 호환 관계
+- 2026.03.07 기준
+- 현재 버전의 지원 상태와 신규 버전의 정보가 업데이트 될 수 있으니 아래의 공식 문서를 확인하는 것이 좋다.
+  - [https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#release-and-maintenance](https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#release-and-maintenance)
 
-현재 버전의 지원 상태와 신규 버전의 정보가 업데이트 될 수 있으니 아래의 공식 문서를 확인하는 것이 좋다.
-- [https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#release-and-maintenance](https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#release-and-maintenance)
+<br>
 
 | ansible community  version |      지원 상태      | ansible-core version |      Control node Python     |                  Managed node Python                  |
 |:--------------------------:|:-------------------:|:--------------------:|:----------------------------:|:-----------------------------------------------------:|
