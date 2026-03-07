@@ -34,8 +34,6 @@ AWX는 ansble 프로젝트 관리를 위한 웹 기반 사용자 인터페이스
 - 2026.03.07 기준으로 작성
 - AWX 18 이후부터 컨테이너 내부는 크게 ansible-ee (Execution Environments) 와 ansible-runner 로 구성된다.
 
-<br>
-
 ## awx-ee
 - ansible 기능을 통합하여 컨테이너 이미지로 빌드한 후 사용한다.
 - 기존 AWX의 경우 내부에 ansible 버전이 사실상 하나로만 사용했으나, EE를 사용하게 되면 AWX 내에서 여러 ansible 버전을 사용할 수 있게 되었다.
